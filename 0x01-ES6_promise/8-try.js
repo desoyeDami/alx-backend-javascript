@@ -5,6 +5,6 @@ export default function divideFunction(numerator, denominator) {
     }
     return (numerator / denominator);
   } catch (error) {
-    return error;
+    return error.message;
   }
 }
